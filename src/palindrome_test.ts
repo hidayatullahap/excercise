@@ -1,6 +1,6 @@
 import { describe, it } from "@std/testing/bdd";
 import { expect } from "@std/expect";
-import { isPalindrome, isPalindromeV2 } from "./palindrome.ts";
+import { isPalindrome, isPalindromeV2 } from "../src/palindrome.ts";
 
 const testCases = [
     { word: "kayak", expected: true },
