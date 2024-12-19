@@ -6,6 +6,7 @@
  * rotator
  * wow
  */
-function isPalindrome(word: string[]) {
-    console.log(word);
+export function isPalindrome(word: string): boolean {
+    const drow = word.split("").reverse().join("")
+    return word === drow;
 }
