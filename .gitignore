@@ -95,9 +95,6 @@ dist/
 # Output unit test
 *.txt
 
-# vscode
-.vscode/
-
 # ADJUST THIS ACCORDING NEEDS
 # Auto Update ISS Script
 installer-win/*.iss
