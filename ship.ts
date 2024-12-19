@@ -14,7 +14,7 @@ interface Cargo {
 }
 
 export class Ship {
-    _cargos: Cargo[]
+    private _cargos: Cargo[]
     constructor() {
         this._cargos = []
     }
